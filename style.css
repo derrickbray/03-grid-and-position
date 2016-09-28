@@ -30,37 +30,44 @@ nav {
 
 .main {
   /*margin: 0 auto;*/
+  max-width: 65rem;
   overflow: auto;
 }
 
 .individual_box {
-  overflow: auto;
   width: calc(100%/2 - 1rem - 1rem);
   border: 0.2rem solid red;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0 0 0 0.4);
   padding: 1rem;
   margin: 3rem 1rem 1rem 2rem;
+  position: relative;
 }
 
 .top {
   background: yellow;
   margin: -1rem;
   margin-bottom: 1rem;
-  overflow: auto;
-  text-align: center;
+  /*overflow: auto;*/
+  text-align: left;
+  position: relative;
 }
 
 .btn {
   display: block;
   margin: 0;
   background: lightblue;
-  align-self: center;
+  border: 0;
+  padding: 1  rem;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translate(-50%, 50%);
 
 }
 
 
 .title{
-
+padding-left: 3rem;
 
   display: inline-block;
   align: left;
@@ -71,4 +78,9 @@ img {
   width: 4rem;
   margin-left: : -1rem;
   float: left;
+  position: absolute;
+  right: 100%;
+  transform: translate(50%, 0);
+  /*position: absolute;
+  left: 50%;*/
 }
