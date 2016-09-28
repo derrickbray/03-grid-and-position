@@ -4,3 +4,21 @@
 body{
   background: blue;
 }
+nav {
+  background: lightblue;
+  overflow: auto;
+  height: 6vh;
+  margin: 0 0 0 0;
+}
+
+.nav_title {
+  color: white;
+  float: left;
+  padding-left: 5rem;
+}
+
+.nav_bar {
+  color: white;
+  float: right;
+  padding-right: 5rem;
+}
