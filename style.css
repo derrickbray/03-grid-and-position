@@ -57,21 +57,19 @@ nav {
   margin: 0;
   background: lightblue;
   border: 0;
-  padding: 1  rem;
+  padding: 1 rem;
   position: absolute;
   left: 50%;
   bottom: 100%;
   transform: translate(-50%, 50%);
-
 }
 
-
-.title{
-padding-left: 3rem;
-
+.title {
+  padding-left: 3rem;
   display: inline-block;
   align: left;
 }
+
 img {
   border-radius: 50%;
   height: 4rem;
