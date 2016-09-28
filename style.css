@@ -1,12 +1,14 @@
-*{
+* {
   box-sizing: border-box;
   padding: 1rem;
   border: 0.5rem white solid;
   margin: 0.5rem;
 }
-body{
+
+body {
   background: blue;
 }
+
 nav {
   background: lightblue;
   overflow: auto;
@@ -25,24 +27,26 @@ nav {
   float: right;
   padding-right: 5rem;
 }
-.main{
-margin: 0 auto;
-}
-.individual_box{
 
+.main {
+  margin: 0 auto;
 }
-.top{
-background: yellow;
-margin: 0 1rem 0 1rem;
-}
-.btn{
 
+.individual_box {}
+
+.top {
+  background: yellow;
+  margin: 0 1rem 0 1rem;
 }
-.text{
-margin: 0 1rem 0 1rem;
+
+.btn {}
+
+.text {
+  margin: 0 1rem 0 1rem;
 }
-img{
-border-radius: 50%;
-height: 2rem;
-width: 2rem;
+
+img {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
 }
