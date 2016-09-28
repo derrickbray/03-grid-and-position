@@ -6,7 +6,8 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  /*background: green;*/
 }
 
 nav {
@@ -15,7 +16,11 @@ nav {
   height: 3rem;
   margin: 0 0 1rem 0;
   width: 100%;
+  z-index: 1;
   position: fixed;
+  /*position: fixed;
+  top: 0;
+  left: 0;*/
 }
 
 .nav_title {
@@ -33,18 +38,20 @@ nav {
 }
 
 .main {
-  margin: 0;
+  margin: 0 auto;
   max-width: 65rem;
   overflow: auto;
+  padding-top: 4rem;
 }
 
 .individual_box {
-  width: calc(100%/2 - 1rem - 1rem);
-  border: 0.0rem solid red;
+  width: calc(100% / 2 - 2rem - 2rem);
+  /*border: 0.2rem solid red;*/
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
   padding: 1rem;
-  margin: 3rem 1rem 1rem 2rem;
+  margin: 2rem;
   position: relative;
+  float: left;
 }
 
 .top {
@@ -61,7 +68,7 @@ nav {
   margin: 0;
   background: lightblue;
   border: 0;
-  padding: 1 rem;
+  padding: 1rem;
   position: absolute;
   left: 50%;
   bottom: 100%;
