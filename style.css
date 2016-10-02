@@ -16,7 +16,15 @@ nav {
   z-index: 1;
   position: fixed;
 }
+.main {
 
+  overflow: auto;
+  padding-top: 4rem;
+}
+.container{
+  margin: 0 auto;
+width: 65rem;
+}
 .nav_title {
   color: white;
   float: left;
@@ -36,12 +44,6 @@ nav {
   padding: 0 1rem;
 }
 
-.main {
-  margin: 0 auto;
-  max-width: 65rem;
-  overflow: auto;
-  padding-top: 4rem;
-}
 
 .individual_box {
   width: calc(100% / 2 - 2rem - 2rem);
